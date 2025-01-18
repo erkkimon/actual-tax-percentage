@@ -1,0 +1,858 @@
+[
+    {
+        "monthlySalary": "80",
+        "taxPercentage": "77"
+    },
+    {
+        "monthlySalary": "1280",
+        "taxPercentage": "78"
+    },
+    {
+        "monthlySalary": "1360",
+        "taxPercentage": "87"
+    },
+    {
+        "monthlySalary": "1440",
+        "taxPercentage": "89"
+    },
+    {
+        "monthlySalary": "1520",
+        "taxPercentage": "96"
+    },
+    {
+        "monthlySalary": "1600",
+        "taxPercentage": "109"
+    },
+    {
+        "monthlySalary": "1680",
+        "taxPercentage": "120"
+    },
+    {
+        "monthlySalary": "1760",
+        "taxPercentage": "131"
+    },
+    {
+        "monthlySalary": "1840",
+        "taxPercentage": "140"
+    },
+    {
+        "monthlySalary": "1920",
+        "taxPercentage": "148"
+    },
+    {
+        "monthlySalary": "2000",
+        "taxPercentage": "155"
+    },
+    {
+        "monthlySalary": "2080",
+        "taxPercentage": "166"
+    },
+    {
+        "monthlySalary": "2160",
+        "taxPercentage": "175"
+    },
+    {
+        "monthlySalary": "2240",
+        "taxPercentage": "184"
+    },
+    {
+        "monthlySalary": "2320",
+        "taxPercentage": "192"
+    },
+    {
+        "monthlySalary": "2400",
+        "taxPercentage": "200"
+    },
+    {
+        "monthlySalary": "2480",
+        "taxPercentage": "206"
+    },
+    {
+        "monthlySalary": "2560",
+        "taxPercentage": "211"
+    },
+    {
+        "monthlySalary": "2640",
+        "taxPercentage": "216"
+    },
+    {
+        "monthlySalary": "2720",
+        "taxPercentage": "220"
+    },
+    {
+        "monthlySalary": "2800",
+        "taxPercentage": "225"
+    },
+    {
+        "monthlySalary": "2880",
+        "taxPercentage": "231"
+    },
+    {
+        "monthlySalary": "2960",
+        "taxPercentage": "238"
+    },
+    {
+        "monthlySalary": "3040",
+        "taxPercentage": "244"
+    },
+    {
+        "monthlySalary": "3120",
+        "taxPercentage": "250"
+    },
+    {
+        "monthlySalary": "3200",
+        "taxPercentage": "255"
+    },
+    {
+        "monthlySalary": "3280",
+        "taxPercentage": "261"
+    },
+    {
+        "monthlySalary": "3360",
+        "taxPercentage": "266"
+    },
+    {
+        "monthlySalary": "3440",
+        "taxPercentage": "271"
+    },
+    {
+        "monthlySalary": "3520",
+        "taxPercentage": "276"
+    },
+    {
+        "monthlySalary": "3600",
+        "taxPercentage": "280"
+    },
+    {
+        "monthlySalary": "3680",
+        "taxPercentage": "285"
+    },
+    {
+        "monthlySalary": "3760",
+        "taxPercentage": "289"
+    },
+    {
+        "monthlySalary": "3840",
+        "taxPercentage": "293"
+    },
+    {
+        "monthlySalary": "3920",
+        "taxPercentage": "297"
+    },
+    {
+        "monthlySalary": "4000",
+        "taxPercentage": "301"
+    },
+    {
+        "monthlySalary": "4080",
+        "taxPercentage": "305"
+    },
+    {
+        "monthlySalary": "4160",
+        "taxPercentage": "308"
+    },
+    {
+        "monthlySalary": "4240",
+        "taxPercentage": "312"
+    },
+    {
+        "monthlySalary": "4320",
+        "taxPercentage": "315"
+    },
+    {
+        "monthlySalary": "4400",
+        "taxPercentage": "318"
+    },
+    {
+        "monthlySalary": "4480",
+        "taxPercentage": "321"
+    },
+    {
+        "monthlySalary": "4560",
+        "taxPercentage": "324"
+    },
+    {
+        "monthlySalary": "4640",
+        "taxPercentage": "327"
+    },
+    {
+        "monthlySalary": "4720",
+        "taxPercentage": "330"
+    },
+    {
+        "monthlySalary": "4800",
+        "taxPercentage": "334"
+    },
+    {
+        "monthlySalary": "4880",
+        "taxPercentage": "337"
+    },
+    {
+        "monthlySalary": "4960",
+        "taxPercentage": "340"
+    },
+    {
+        "monthlySalary": "5040",
+        "taxPercentage": "343"
+    },
+    {
+        "monthlySalary": "5120",
+        "taxPercentage": "345"
+    },
+    {
+        "monthlySalary": "5200",
+        "taxPercentage": "348"
+    },
+    {
+        "monthlySalary": "5280",
+        "taxPercentage": "351"
+    },
+    {
+        "monthlySalary": "5360",
+        "taxPercentage": "353"
+    },
+    {
+        "monthlySalary": "5440",
+        "taxPercentage": "356"
+    },
+    {
+        "monthlySalary": "5520",
+        "taxPercentage": "358"
+    },
+    {
+        "monthlySalary": "5600",
+        "taxPercentage": "360"
+    },
+    {
+        "monthlySalary": "5680",
+        "taxPercentage": "363"
+    },
+    {
+        "monthlySalary": "5760",
+        "taxPercentage": "365"
+    },
+    {
+        "monthlySalary": "5840",
+        "taxPercentage": "367"
+    },
+    {
+        "monthlySalary": "5920",
+        "taxPercentage": "369"
+    },
+    {
+        "monthlySalary": "6000",
+        "taxPercentage": "371"
+    },
+    {
+        "monthlySalary": "6080",
+        "taxPercentage": "373"
+    },
+    {
+        "monthlySalary": "6160",
+        "taxPercentage": "375"
+    },
+    {
+        "monthlySalary": "6240",
+        "taxPercentage": "377"
+    },
+    {
+        "monthlySalary": "6320",
+        "taxPercentage": "379"
+    },
+    {
+        "monthlySalary": "6400",
+        "taxPercentage": "381"
+    },
+    {
+        "monthlySalary": "6480",
+        "taxPercentage": "382"
+    },
+    {
+        "monthlySalary": "6560",
+        "taxPercentage": "384"
+    },
+    {
+        "monthlySalary": "6640",
+        "taxPercentage": "386"
+    },
+    {
+        "monthlySalary": "6720",
+        "taxPercentage": "387"
+    },
+    {
+        "monthlySalary": "6800",
+        "taxPercentage": "389"
+    },
+    {
+        "monthlySalary": "6880",
+        "taxPercentage": "391"
+    },
+    {
+        "monthlySalary": "6960",
+        "taxPercentage": "392"
+    },
+    {
+        "monthlySalary": "7040",
+        "taxPercentage": "394"
+    },
+    {
+        "monthlySalary": "7120",
+        "taxPercentage": "395"
+    },
+    {
+        "monthlySalary": "7200",
+        "taxPercentage": "396"
+    },
+    {
+        "monthlySalary": "7280",
+        "taxPercentage": "398"
+    },
+    {
+        "monthlySalary": "7360",
+        "taxPercentage": "399"
+    },
+    {
+        "monthlySalary": "7440",
+        "taxPercentage": "401"
+    },
+    {
+        "monthlySalary": "7520",
+        "taxPercentage": "402"
+    },
+    {
+        "monthlySalary": "7600",
+        "taxPercentage": "403"
+    },
+    {
+        "monthlySalary": "7680",
+        "taxPercentage": "404"
+    },
+    {
+        "monthlySalary": "7760",
+        "taxPercentage": "406"
+    },
+    {
+        "monthlySalary": "7840",
+        "taxPercentage": "407"
+    },
+    {
+        "monthlySalary": "7920",
+        "taxPercentage": "409"
+    },
+    {
+        "monthlySalary": "8000",
+        "taxPercentage": "411"
+    },
+    {
+        "monthlySalary": "8080",
+        "taxPercentage": "413"
+    },
+    {
+        "monthlySalary": "8160",
+        "taxPercentage": "415"
+    },
+    {
+        "monthlySalary": "8240",
+        "taxPercentage": "416"
+    },
+    {
+        "monthlySalary": "8320",
+        "taxPercentage": "418"
+    },
+    {
+        "monthlySalary": "8400",
+        "taxPercentage": "420"
+    },
+    {
+        "monthlySalary": "8480",
+        "taxPercentage": "421"
+    },
+    {
+        "monthlySalary": "8560",
+        "taxPercentage": "423"
+    },
+    {
+        "monthlySalary": "8640",
+        "taxPercentage": "424"
+    },
+    {
+        "monthlySalary": "8720",
+        "taxPercentage": "426"
+    },
+    {
+        "monthlySalary": "8800",
+        "taxPercentage": "428"
+    },
+    {
+        "monthlySalary": "8880",
+        "taxPercentage": "429"
+    },
+    {
+        "monthlySalary": "8960",
+        "taxPercentage": "430"
+    },
+    {
+        "monthlySalary": "9040",
+        "taxPercentage": "432"
+    },
+    {
+        "monthlySalary": "9120",
+        "taxPercentage": "433"
+    },
+    {
+        "monthlySalary": "9200",
+        "taxPercentage": "435"
+    },
+    {
+        "monthlySalary": "9280",
+        "taxPercentage": "436"
+    },
+    {
+        "monthlySalary": "9360",
+        "taxPercentage": "437"
+    },
+    {
+        "monthlySalary": "9440",
+        "taxPercentage": "439"
+    },
+    {
+        "monthlySalary": "9520",
+        "taxPercentage": "440"
+    },
+    {
+        "monthlySalary": "9600",
+        "taxPercentage": "441"
+    },
+    {
+        "monthlySalary": "9680",
+        "taxPercentage": "443"
+    },
+    {
+        "monthlySalary": "9760",
+        "taxPercentage": "444"
+    },
+    {
+        "monthlySalary": "9840",
+        "taxPercentage": "445"
+    },
+    {
+        "monthlySalary": "9920",
+        "taxPercentage": "446"
+    },
+    {
+        "monthlySalary": "10000",
+        "taxPercentage": "447"
+    },
+    {
+        "monthlySalary": "10080",
+        "taxPercentage": "448"
+    },
+    {
+        "monthlySalary": "10160",
+        "taxPercentage": "449"
+    },
+    {
+        "monthlySalary": "10240",
+        "taxPercentage": "450"
+    },
+    {
+        "monthlySalary": "10320",
+        "taxPercentage": "451"
+    },
+    {
+        "monthlySalary": "10400",
+        "taxPercentage": "452"
+    },
+    {
+        "monthlySalary": "10480",
+        "taxPercentage": "453"
+    },
+    {
+        "monthlySalary": "10640",
+        "taxPercentage": "454"
+    },
+    {
+        "monthlySalary": "10720",
+        "taxPercentage": "455"
+    },
+    {
+        "monthlySalary": "10800",
+        "taxPercentage": "456"
+    },
+    {
+        "monthlySalary": "10960",
+        "taxPercentage": "457"
+    },
+    {
+        "monthlySalary": "11040",
+        "taxPercentage": "458"
+    },
+    {
+        "monthlySalary": "11120",
+        "taxPercentage": "459"
+    },
+    {
+        "monthlySalary": "11280",
+        "taxPercentage": "460"
+    },
+    {
+        "monthlySalary": "11360",
+        "taxPercentage": "461"
+    },
+    {
+        "monthlySalary": "11520",
+        "taxPercentage": "462"
+    },
+    {
+        "monthlySalary": "11600",
+        "taxPercentage": "463"
+    },
+    {
+        "monthlySalary": "11760",
+        "taxPercentage": "464"
+    },
+    {
+        "monthlySalary": "11840",
+        "taxPercentage": "465"
+    },
+    {
+        "monthlySalary": "12000",
+        "taxPercentage": "466"
+    },
+    {
+        "monthlySalary": "12080",
+        "taxPercentage": "467"
+    },
+    {
+        "monthlySalary": "12240",
+        "taxPercentage": "468"
+    },
+    {
+        "monthlySalary": "12400",
+        "taxPercentage": "469"
+    },
+    {
+        "monthlySalary": "12480",
+        "taxPercentage": "470"
+    },
+    {
+        "monthlySalary": "12640",
+        "taxPercentage": "471"
+    },
+    {
+        "monthlySalary": "12800",
+        "taxPercentage": "472"
+    },
+    {
+        "monthlySalary": "12960",
+        "taxPercentage": "473"
+    },
+    {
+        "monthlySalary": "13120",
+        "taxPercentage": "474"
+    },
+    {
+        "monthlySalary": "13280",
+        "taxPercentage": "475"
+    },
+    {
+        "monthlySalary": "13360",
+        "taxPercentage": "476"
+    },
+    {
+        "monthlySalary": "13520",
+        "taxPercentage": "477"
+    },
+    {
+        "monthlySalary": "13600",
+        "taxPercentage": "478"
+    },
+    {
+        "monthlySalary": "13760",
+        "taxPercentage": "479"
+    },
+    {
+        "monthlySalary": "13920",
+        "taxPercentage": "480"
+    },
+    {
+        "monthlySalary": "14000",
+        "taxPercentage": "481"
+    },
+    {
+        "monthlySalary": "14160",
+        "taxPercentage": "482"
+    },
+    {
+        "monthlySalary": "14320",
+        "taxPercentage": "483"
+    },
+    {
+        "monthlySalary": "14480",
+        "taxPercentage": "484"
+    },
+    {
+        "monthlySalary": "14640",
+        "taxPercentage": "485"
+    },
+    {
+        "monthlySalary": "14800",
+        "taxPercentage": "486"
+    },
+    {
+        "monthlySalary": "14880",
+        "taxPercentage": "487"
+    },
+    {
+        "monthlySalary": "15040",
+        "taxPercentage": "488"
+    },
+    {
+        "monthlySalary": "15200",
+        "taxPercentage": "489"
+    },
+    {
+        "monthlySalary": "15440",
+        "taxPercentage": "490"
+    },
+    {
+        "monthlySalary": "15600",
+        "taxPercentage": "491"
+    },
+    {
+        "monthlySalary": "15760",
+        "taxPercentage": "492"
+    },
+    {
+        "monthlySalary": "15920",
+        "taxPercentage": "493"
+    },
+    {
+        "monthlySalary": "16400",
+        "taxPercentage": "495"
+    },
+    {
+        "monthlySalary": "16800",
+        "taxPercentage": "497"
+    },
+    {
+        "monthlySalary": "17200",
+        "taxPercentage": "499"
+    },
+    {
+        "monthlySalary": "17600",
+        "taxPercentage": "501"
+    },
+    {
+        "monthlySalary": "18000",
+        "taxPercentage": "503"
+    },
+    {
+        "monthlySalary": "18400",
+        "taxPercentage": "505"
+    },
+    {
+        "monthlySalary": "18800",
+        "taxPercentage": "506"
+    },
+    {
+        "monthlySalary": "19200",
+        "taxPercentage": "508"
+    },
+    {
+        "monthlySalary": "19600",
+        "taxPercentage": "509"
+    },
+    {
+        "monthlySalary": "20000",
+        "taxPercentage": "511"
+    },
+    {
+        "monthlySalary": "20400",
+        "taxPercentage": "512"
+    },
+    {
+        "monthlySalary": "20800",
+        "taxPercentage": "514"
+    },
+    {
+        "monthlySalary": "21200",
+        "taxPercentage": "515"
+    },
+    {
+        "monthlySalary": "21600",
+        "taxPercentage": "516"
+    },
+    {
+        "monthlySalary": "22000",
+        "taxPercentage": "517"
+    },
+    {
+        "monthlySalary": "22400",
+        "taxPercentage": "518"
+    },
+    {
+        "monthlySalary": "22800",
+        "taxPercentage": "520"
+    },
+    {
+        "monthlySalary": "23200",
+        "taxPercentage": "521"
+    },
+    {
+        "monthlySalary": "23600",
+        "taxPercentage": "522"
+    },
+    {
+        "monthlySalary": "24000",
+        "taxPercentage": "523"
+    },
+    {
+        "monthlySalary": "24400",
+        "taxPercentage": "524"
+    },
+    {
+        "monthlySalary": "24800",
+        "taxPercentage": "525"
+    },
+    {
+        "monthlySalary": "25600",
+        "taxPercentage": "526"
+    },
+    {
+        "monthlySalary": "26000",
+        "taxPercentage": "527"
+    },
+    {
+        "monthlySalary": "26400",
+        "taxPercentage": "528"
+    },
+    {
+        "monthlySalary": "26800",
+        "taxPercentage": "529"
+    },
+    {
+        "monthlySalary": "27200",
+        "taxPercentage": "530"
+    },
+    {
+        "monthlySalary": "28000",
+        "taxPercentage": "531"
+    },
+    {
+        "monthlySalary": "28400",
+        "taxPercentage": "532"
+    },
+    {
+        "monthlySalary": "29200",
+        "taxPercentage": "533"
+    },
+    {
+        "monthlySalary": "29600",
+        "taxPercentage": "534"
+    },
+    {
+        "monthlySalary": "30400",
+        "taxPercentage": "535"
+    },
+    {
+        "monthlySalary": "30800",
+        "taxPercentage": "536"
+    },
+    {
+        "monthlySalary": "31600",
+        "taxPercentage": "537"
+    },
+    {
+        "monthlySalary": "32400",
+        "taxPercentage": "538"
+    },
+    {
+        "monthlySalary": "33200",
+        "taxPercentage": "539"
+    },
+    {
+        "monthlySalary": "34000",
+        "taxPercentage": "540"
+    },
+    {
+        "monthlySalary": "34800",
+        "taxPercentage": "541"
+    },
+    {
+        "monthlySalary": "35600",
+        "taxPercentage": "542"
+    },
+    {
+        "monthlySalary": "36400",
+        "taxPercentage": "543"
+    },
+    {
+        "monthlySalary": "37200",
+        "taxPercentage": "544"
+    },
+    {
+        "monthlySalary": "38400",
+        "taxPercentage": "545"
+    },
+    {
+        "monthlySalary": "39600",
+        "taxPercentage": "546"
+    },
+    {
+        "monthlySalary": "40400",
+        "taxPercentage": "547"
+    },
+    {
+        "monthlySalary": "41600",
+        "taxPercentage": "548"
+    },
+    {
+        "monthlySalary": "42800",
+        "taxPercentage": "549"
+    },
+    {
+        "monthlySalary": "44400",
+        "taxPercentage": "550"
+    },
+    {
+        "monthlySalary": "45600",
+        "taxPercentage": "551"
+    },
+    {
+        "monthlySalary": "47200",
+        "taxPercentage": "552"
+    },
+    {
+        "monthlySalary": "52000",
+        "taxPercentage": "554"
+    },
+    {
+        "monthlySalary": "56000",
+        "taxPercentage": "556"
+    },
+    {
+        "monthlySalary": "60000",
+        "taxPercentage": "558"
+    },
+    {
+        "monthlySalary": "64000",
+        "taxPercentage": "559"
+    },
+    {
+        "monthlySalary": "68000",
+        "taxPercentage": "561"
+    },
+    {
+        "monthlySalary": "72000",
+        "taxPercentage": "562"
+    },
+    {
+        "monthlySalary": "76000",
+        "taxPercentage": "563"
+    },
+    {
+        "monthlySalary": "80000",
+        "taxPercentage": "564"
+    }
+]
