@@ -1,858 +1,858 @@
 [
     {
         "monthlySalary": "80",
-        "taxPercentage": "77"
+        "taxPercentage": "7.7"
     },
     {
         "monthlySalary": "1280",
-        "taxPercentage": "78"
+        "taxPercentage": "7.8"
     },
     {
         "monthlySalary": "1360",
-        "taxPercentage": "87"
+        "taxPercentage": "8.7"
     },
     {
         "monthlySalary": "1440",
-        "taxPercentage": "89"
+        "taxPercentage": "8.9"
     },
     {
         "monthlySalary": "1520",
-        "taxPercentage": "96"
+        "taxPercentage": "9.6"
     },
     {
         "monthlySalary": "1600",
-        "taxPercentage": "109"
+        "taxPercentage": "10.9"
     },
     {
         "monthlySalary": "1680",
-        "taxPercentage": "120"
+        "taxPercentage": "12.0"
     },
     {
         "monthlySalary": "1760",
-        "taxPercentage": "131"
+        "taxPercentage": "13.1"
     },
     {
         "monthlySalary": "1840",
-        "taxPercentage": "140"
+        "taxPercentage": "14.0"
     },
     {
         "monthlySalary": "1920",
-        "taxPercentage": "148"
+        "taxPercentage": "14.8"
     },
     {
         "monthlySalary": "2000",
-        "taxPercentage": "155"
+        "taxPercentage": "15.5"
     },
     {
         "monthlySalary": "2080",
-        "taxPercentage": "166"
+        "taxPercentage": "16.6"
     },
     {
         "monthlySalary": "2160",
-        "taxPercentage": "175"
+        "taxPercentage": "17.5"
     },
     {
         "monthlySalary": "2240",
-        "taxPercentage": "184"
+        "taxPercentage": "18.4"
     },
     {
         "monthlySalary": "2320",
-        "taxPercentage": "192"
+        "taxPercentage": "19.2"
     },
     {
         "monthlySalary": "2400",
-        "taxPercentage": "200"
+        "taxPercentage": "20.0"
     },
     {
         "monthlySalary": "2480",
-        "taxPercentage": "206"
+        "taxPercentage": "20.6"
     },
     {
         "monthlySalary": "2560",
-        "taxPercentage": "211"
+        "taxPercentage": "21.1"
     },
     {
         "monthlySalary": "2640",
-        "taxPercentage": "216"
+        "taxPercentage": "21.6"
     },
     {
         "monthlySalary": "2720",
-        "taxPercentage": "220"
+        "taxPercentage": "22.0"
     },
     {
         "monthlySalary": "2800",
-        "taxPercentage": "225"
+        "taxPercentage": "22.5"
     },
     {
         "monthlySalary": "2880",
-        "taxPercentage": "231"
+        "taxPercentage": "23.1"
     },
     {
         "monthlySalary": "2960",
-        "taxPercentage": "238"
+        "taxPercentage": "23.8"
     },
     {
         "monthlySalary": "3040",
-        "taxPercentage": "244"
+        "taxPercentage": "24.4"
     },
     {
         "monthlySalary": "3120",
-        "taxPercentage": "250"
+        "taxPercentage": "25.0"
     },
     {
         "monthlySalary": "3200",
-        "taxPercentage": "255"
+        "taxPercentage": "25.5"
     },
     {
         "monthlySalary": "3280",
-        "taxPercentage": "261"
+        "taxPercentage": "26.1"
     },
     {
         "monthlySalary": "3360",
-        "taxPercentage": "266"
+        "taxPercentage": "26.6"
     },
     {
         "monthlySalary": "3440",
-        "taxPercentage": "271"
+        "taxPercentage": "27.1"
     },
     {
         "monthlySalary": "3520",
-        "taxPercentage": "276"
+        "taxPercentage": "27.6"
     },
     {
         "monthlySalary": "3600",
-        "taxPercentage": "280"
+        "taxPercentage": "28.0"
     },
     {
         "monthlySalary": "3680",
-        "taxPercentage": "285"
+        "taxPercentage": "28.5"
     },
     {
         "monthlySalary": "3760",
-        "taxPercentage": "289"
+        "taxPercentage": "28.9"
     },
     {
         "monthlySalary": "3840",
-        "taxPercentage": "293"
+        "taxPercentage": "29.3"
     },
     {
         "monthlySalary": "3920",
-        "taxPercentage": "297"
+        "taxPercentage": "29.7"
     },
     {
         "monthlySalary": "4000",
-        "taxPercentage": "301"
+        "taxPercentage": "30.1"
     },
     {
         "monthlySalary": "4080",
-        "taxPercentage": "305"
+        "taxPercentage": "30.5"
     },
     {
         "monthlySalary": "4160",
-        "taxPercentage": "308"
+        "taxPercentage": "30.8"
     },
     {
         "monthlySalary": "4240",
-        "taxPercentage": "312"
+        "taxPercentage": "31.2"
     },
     {
         "monthlySalary": "4320",
-        "taxPercentage": "315"
+        "taxPercentage": "31.5"
     },
     {
         "monthlySalary": "4400",
-        "taxPercentage": "318"
+        "taxPercentage": "31.8"
     },
     {
         "monthlySalary": "4480",
-        "taxPercentage": "321"
+        "taxPercentage": "32.1"
     },
     {
         "monthlySalary": "4560",
-        "taxPercentage": "324"
+        "taxPercentage": "32.4"
     },
     {
         "monthlySalary": "4640",
-        "taxPercentage": "327"
+        "taxPercentage": "32.7"
     },
     {
         "monthlySalary": "4720",
-        "taxPercentage": "330"
+        "taxPercentage": "33.0"
     },
     {
         "monthlySalary": "4800",
-        "taxPercentage": "334"
+        "taxPercentage": "33.4"
     },
     {
         "monthlySalary": "4880",
-        "taxPercentage": "337"
+        "taxPercentage": "33.7"
     },
     {
         "monthlySalary": "4960",
-        "taxPercentage": "340"
+        "taxPercentage": "34.0"
     },
     {
         "monthlySalary": "5040",
-        "taxPercentage": "343"
+        "taxPercentage": "34.3"
     },
     {
         "monthlySalary": "5120",
-        "taxPercentage": "345"
+        "taxPercentage": "34.5"
     },
     {
         "monthlySalary": "5200",
-        "taxPercentage": "348"
+        "taxPercentage": "34.8"
     },
     {
         "monthlySalary": "5280",
-        "taxPercentage": "351"
+        "taxPercentage": "35.1"
     },
     {
         "monthlySalary": "5360",
-        "taxPercentage": "353"
+        "taxPercentage": "35.3"
     },
     {
         "monthlySalary": "5440",
-        "taxPercentage": "356"
+        "taxPercentage": "35.6"
     },
     {
         "monthlySalary": "5520",
-        "taxPercentage": "358"
+        "taxPercentage": "35.8"
     },
     {
         "monthlySalary": "5600",
-        "taxPercentage": "360"
+        "taxPercentage": "36.0"
     },
     {
         "monthlySalary": "5680",
-        "taxPercentage": "363"
+        "taxPercentage": "36.3"
     },
     {
         "monthlySalary": "5760",
-        "taxPercentage": "365"
+        "taxPercentage": "36.5"
     },
     {
         "monthlySalary": "5840",
-        "taxPercentage": "367"
+        "taxPercentage": "36.7"
     },
     {
         "monthlySalary": "5920",
-        "taxPercentage": "369"
+        "taxPercentage": "36.9"
     },
     {
         "monthlySalary": "6000",
-        "taxPercentage": "371"
+        "taxPercentage": "37.1"
     },
     {
         "monthlySalary": "6080",
-        "taxPercentage": "373"
+        "taxPercentage": "37.3"
     },
     {
         "monthlySalary": "6160",
-        "taxPercentage": "375"
+        "taxPercentage": "37.5"
     },
     {
         "monthlySalary": "6240",
-        "taxPercentage": "377"
+        "taxPercentage": "37.7"
     },
     {
         "monthlySalary": "6320",
-        "taxPercentage": "379"
+        "taxPercentage": "37.9"
     },
     {
         "monthlySalary": "6400",
-        "taxPercentage": "381"
+        "taxPercentage": "38.1"
     },
     {
         "monthlySalary": "6480",
-        "taxPercentage": "382"
+        "taxPercentage": "38.2"
     },
     {
         "monthlySalary": "6560",
-        "taxPercentage": "384"
+        "taxPercentage": "38.4"
     },
     {
         "monthlySalary": "6640",
-        "taxPercentage": "386"
+        "taxPercentage": "38.6"
     },
     {
         "monthlySalary": "6720",
-        "taxPercentage": "387"
+        "taxPercentage": "38.7"
     },
     {
         "monthlySalary": "6800",
-        "taxPercentage": "389"
+        "taxPercentage": "38.9"
     },
     {
         "monthlySalary": "6880",
-        "taxPercentage": "391"
+        "taxPercentage": "39.1"
     },
     {
         "monthlySalary": "6960",
-        "taxPercentage": "392"
+        "taxPercentage": "39.2"
     },
     {
         "monthlySalary": "7040",
-        "taxPercentage": "394"
+        "taxPercentage": "39.4"
     },
     {
         "monthlySalary": "7120",
-        "taxPercentage": "395"
+        "taxPercentage": "39.5"
     },
     {
         "monthlySalary": "7200",
-        "taxPercentage": "396"
+        "taxPercentage": "39.6"
     },
     {
         "monthlySalary": "7280",
-        "taxPercentage": "398"
+        "taxPercentage": "39.8"
     },
     {
         "monthlySalary": "7360",
-        "taxPercentage": "399"
+        "taxPercentage": "39.9"
     },
     {
         "monthlySalary": "7440",
-        "taxPercentage": "401"
+        "taxPercentage": "40.1"
     },
     {
         "monthlySalary": "7520",
-        "taxPercentage": "402"
+        "taxPercentage": "40.2"
     },
     {
         "monthlySalary": "7600",
-        "taxPercentage": "403"
+        "taxPercentage": "40.3"
     },
     {
         "monthlySalary": "7680",
-        "taxPercentage": "404"
+        "taxPercentage": "40.4"
     },
     {
         "monthlySalary": "7760",
-        "taxPercentage": "406"
+        "taxPercentage": "40.6"
     },
     {
         "monthlySalary": "7840",
-        "taxPercentage": "407"
+        "taxPercentage": "40.7"
     },
     {
         "monthlySalary": "7920",
-        "taxPercentage": "409"
+        "taxPercentage": "40.9"
     },
     {
         "monthlySalary": "8000",
-        "taxPercentage": "411"
+        "taxPercentage": "41.1"
     },
     {
         "monthlySalary": "8080",
-        "taxPercentage": "413"
+        "taxPercentage": "41.3"
     },
     {
         "monthlySalary": "8160",
-        "taxPercentage": "415"
+        "taxPercentage": "41.5"
     },
     {
         "monthlySalary": "8240",
-        "taxPercentage": "416"
+        "taxPercentage": "41.6"
     },
     {
         "monthlySalary": "8320",
-        "taxPercentage": "418"
+        "taxPercentage": "41.8"
     },
     {
         "monthlySalary": "8400",
-        "taxPercentage": "420"
+        "taxPercentage": "42.0"
     },
     {
         "monthlySalary": "8480",
-        "taxPercentage": "421"
+        "taxPercentage": "42.1"
     },
     {
         "monthlySalary": "8560",
-        "taxPercentage": "423"
+        "taxPercentage": "42.3"
     },
     {
         "monthlySalary": "8640",
-        "taxPercentage": "424"
+        "taxPercentage": "42.4"
     },
     {
         "monthlySalary": "8720",
-        "taxPercentage": "426"
+        "taxPercentage": "42.6"
     },
     {
         "monthlySalary": "8800",
-        "taxPercentage": "428"
+        "taxPercentage": "42.8"
     },
     {
         "monthlySalary": "8880",
-        "taxPercentage": "429"
+        "taxPercentage": "42.9"
     },
     {
         "monthlySalary": "8960",
-        "taxPercentage": "430"
+        "taxPercentage": "43.0"
     },
     {
         "monthlySalary": "9040",
-        "taxPercentage": "432"
+        "taxPercentage": "43.2"
     },
     {
         "monthlySalary": "9120",
-        "taxPercentage": "433"
+        "taxPercentage": "43.3"
     },
     {
         "monthlySalary": "9200",
-        "taxPercentage": "435"
+        "taxPercentage": "43.5"
     },
     {
         "monthlySalary": "9280",
-        "taxPercentage": "436"
+        "taxPercentage": "43.6"
     },
     {
         "monthlySalary": "9360",
-        "taxPercentage": "437"
+        "taxPercentage": "43.7"
     },
     {
         "monthlySalary": "9440",
-        "taxPercentage": "439"
+        "taxPercentage": "43.9"
     },
     {
         "monthlySalary": "9520",
-        "taxPercentage": "440"
+        "taxPercentage": "44.0"
     },
     {
         "monthlySalary": "9600",
-        "taxPercentage": "441"
+        "taxPercentage": "44.1"
     },
     {
         "monthlySalary": "9680",
-        "taxPercentage": "443"
+        "taxPercentage": "44.3"
     },
     {
         "monthlySalary": "9760",
-        "taxPercentage": "444"
+        "taxPercentage": "44.4"
     },
     {
         "monthlySalary": "9840",
-        "taxPercentage": "445"
+        "taxPercentage": "44.5"
     },
     {
         "monthlySalary": "9920",
-        "taxPercentage": "446"
+        "taxPercentage": "44.6"
     },
     {
         "monthlySalary": "10000",
-        "taxPercentage": "447"
+        "taxPercentage": "44.7"
     },
     {
         "monthlySalary": "10080",
-        "taxPercentage": "448"
+        "taxPercentage": "44.8"
     },
     {
         "monthlySalary": "10160",
-        "taxPercentage": "449"
+        "taxPercentage": "44.9"
     },
     {
         "monthlySalary": "10240",
-        "taxPercentage": "450"
+        "taxPercentage": "45.0"
     },
     {
         "monthlySalary": "10320",
-        "taxPercentage": "451"
+        "taxPercentage": "45.1"
     },
     {
         "monthlySalary": "10400",
-        "taxPercentage": "452"
+        "taxPercentage": "45.2"
     },
     {
         "monthlySalary": "10480",
-        "taxPercentage": "453"
+        "taxPercentage": "45.3"
     },
     {
         "monthlySalary": "10640",
-        "taxPercentage": "454"
+        "taxPercentage": "45.4"
     },
     {
         "monthlySalary": "10720",
-        "taxPercentage": "455"
+        "taxPercentage": "45.5"
     },
     {
         "monthlySalary": "10800",
-        "taxPercentage": "456"
+        "taxPercentage": "45.6"
     },
     {
         "monthlySalary": "10960",
-        "taxPercentage": "457"
+        "taxPercentage": "45.7"
     },
     {
         "monthlySalary": "11040",
-        "taxPercentage": "458"
+        "taxPercentage": "45.8"
     },
     {
         "monthlySalary": "11120",
-        "taxPercentage": "459"
+        "taxPercentage": "45.9"
     },
     {
         "monthlySalary": "11280",
-        "taxPercentage": "460"
+        "taxPercentage": "46.0"
     },
     {
         "monthlySalary": "11360",
-        "taxPercentage": "461"
+        "taxPercentage": "46.1"
     },
     {
         "monthlySalary": "11520",
-        "taxPercentage": "462"
+        "taxPercentage": "46.2"
     },
     {
         "monthlySalary": "11600",
-        "taxPercentage": "463"
+        "taxPercentage": "46.3"
     },
     {
         "monthlySalary": "11760",
-        "taxPercentage": "464"
+        "taxPercentage": "46.4"
     },
     {
         "monthlySalary": "11840",
-        "taxPercentage": "465"
+        "taxPercentage": "46.5"
     },
     {
         "monthlySalary": "12000",
-        "taxPercentage": "466"
+        "taxPercentage": "46.6"
     },
     {
         "monthlySalary": "12080",
-        "taxPercentage": "467"
+        "taxPercentage": "46.7"
     },
     {
         "monthlySalary": "12240",
-        "taxPercentage": "468"
+        "taxPercentage": "46.8"
     },
     {
         "monthlySalary": "12400",
-        "taxPercentage": "469"
+        "taxPercentage": "46.9"
     },
     {
         "monthlySalary": "12480",
-        "taxPercentage": "470"
+        "taxPercentage": "47.0"
     },
     {
         "monthlySalary": "12640",
-        "taxPercentage": "471"
+        "taxPercentage": "47.1"
     },
     {
         "monthlySalary": "12800",
-        "taxPercentage": "472"
+        "taxPercentage": "47.2"
     },
     {
         "monthlySalary": "12960",
-        "taxPercentage": "473"
+        "taxPercentage": "47.3"
     },
     {
         "monthlySalary": "13120",
-        "taxPercentage": "474"
+        "taxPercentage": "47.4"
     },
     {
         "monthlySalary": "13280",
-        "taxPercentage": "475"
+        "taxPercentage": "47.5"
     },
     {
         "monthlySalary": "13360",
-        "taxPercentage": "476"
+        "taxPercentage": "47.6"
     },
     {
         "monthlySalary": "13520",
-        "taxPercentage": "477"
+        "taxPercentage": "47.7"
     },
     {
         "monthlySalary": "13600",
-        "taxPercentage": "478"
+        "taxPercentage": "47.8"
     },
     {
         "monthlySalary": "13760",
-        "taxPercentage": "479"
+        "taxPercentage": "47.9"
     },
     {
         "monthlySalary": "13920",
-        "taxPercentage": "480"
+        "taxPercentage": "48.0"
     },
     {
         "monthlySalary": "14000",
-        "taxPercentage": "481"
+        "taxPercentage": "48.1"
     },
     {
         "monthlySalary": "14160",
-        "taxPercentage": "482"
+        "taxPercentage": "48.2"
     },
     {
         "monthlySalary": "14320",
-        "taxPercentage": "483"
+        "taxPercentage": "48.3"
     },
     {
         "monthlySalary": "14480",
-        "taxPercentage": "484"
+        "taxPercentage": "48.4"
     },
     {
         "monthlySalary": "14640",
-        "taxPercentage": "485"
+        "taxPercentage": "48.5"
     },
     {
         "monthlySalary": "14800",
-        "taxPercentage": "486"
+        "taxPercentage": "48.6"
     },
     {
         "monthlySalary": "14880",
-        "taxPercentage": "487"
+        "taxPercentage": "48.7"
     },
     {
         "monthlySalary": "15040",
-        "taxPercentage": "488"
+        "taxPercentage": "48.8"
     },
     {
         "monthlySalary": "15200",
-        "taxPercentage": "489"
+        "taxPercentage": "48.9"
     },
     {
         "monthlySalary": "15440",
-        "taxPercentage": "490"
+        "taxPercentage": "49.0"
     },
     {
         "monthlySalary": "15600",
-        "taxPercentage": "491"
+        "taxPercentage": "49.1"
     },
     {
         "monthlySalary": "15760",
-        "taxPercentage": "492"
+        "taxPercentage": "49.2"
     },
     {
         "monthlySalary": "15920",
-        "taxPercentage": "493"
+        "taxPercentage": "49.3"
     },
     {
         "monthlySalary": "16400",
-        "taxPercentage": "495"
+        "taxPercentage": "49.5"
     },
     {
         "monthlySalary": "16800",
-        "taxPercentage": "497"
+        "taxPercentage": "49.7"
     },
     {
         "monthlySalary": "17200",
-        "taxPercentage": "499"
+        "taxPercentage": "49.9"
     },
     {
         "monthlySalary": "17600",
-        "taxPercentage": "501"
+        "taxPercentage": "50.1"
     },
     {
         "monthlySalary": "18000",
-        "taxPercentage": "503"
+        "taxPercentage": "50.3"
     },
     {
         "monthlySalary": "18400",
-        "taxPercentage": "505"
+        "taxPercentage": "50.5"
     },
     {
         "monthlySalary": "18800",
-        "taxPercentage": "506"
+        "taxPercentage": "50.6"
     },
     {
         "monthlySalary": "19200",
-        "taxPercentage": "508"
+        "taxPercentage": "50.8"
     },
     {
         "monthlySalary": "19600",
-        "taxPercentage": "509"
+        "taxPercentage": "50.9"
     },
     {
         "monthlySalary": "20000",
-        "taxPercentage": "511"
+        "taxPercentage": "51.1"
     },
     {
         "monthlySalary": "20400",
-        "taxPercentage": "512"
+        "taxPercentage": "51.2"
     },
     {
         "monthlySalary": "20800",
-        "taxPercentage": "514"
+        "taxPercentage": "51.4"
     },
     {
         "monthlySalary": "21200",
-        "taxPercentage": "515"
+        "taxPercentage": "51.5"
     },
     {
         "monthlySalary": "21600",
-        "taxPercentage": "516"
+        "taxPercentage": "51.6"
     },
     {
         "monthlySalary": "22000",
-        "taxPercentage": "517"
+        "taxPercentage": "51.7"
     },
     {
         "monthlySalary": "22400",
-        "taxPercentage": "518"
+        "taxPercentage": "51.8"
     },
     {
         "monthlySalary": "22800",
-        "taxPercentage": "520"
+        "taxPercentage": "52.0"
     },
     {
         "monthlySalary": "23200",
-        "taxPercentage": "521"
+        "taxPercentage": "52.1"
     },
     {
         "monthlySalary": "23600",
-        "taxPercentage": "522"
+        "taxPercentage": "52.2"
     },
     {
         "monthlySalary": "24000",
-        "taxPercentage": "523"
+        "taxPercentage": "52.3"
     },
     {
         "monthlySalary": "24400",
-        "taxPercentage": "524"
+        "taxPercentage": "52.4"
     },
     {
         "monthlySalary": "24800",
-        "taxPercentage": "525"
+        "taxPercentage": "52.5"
     },
     {
         "monthlySalary": "25600",
-        "taxPercentage": "526"
+        "taxPercentage": "52.6"
     },
     {
         "monthlySalary": "26000",
-        "taxPercentage": "527"
+        "taxPercentage": "52.7"
     },
     {
         "monthlySalary": "26400",
-        "taxPercentage": "528"
+        "taxPercentage": "52.8"
     },
     {
         "monthlySalary": "26800",
-        "taxPercentage": "529"
+        "taxPercentage": "52.9"
     },
     {
         "monthlySalary": "27200",
-        "taxPercentage": "530"
+        "taxPercentage": "53.0"
     },
     {
         "monthlySalary": "28000",
-        "taxPercentage": "531"
+        "taxPercentage": "53.1"
     },
     {
         "monthlySalary": "28400",
-        "taxPercentage": "532"
+        "taxPercentage": "53.2"
     },
     {
         "monthlySalary": "29200",
-        "taxPercentage": "533"
+        "taxPercentage": "53.3"
     },
     {
         "monthlySalary": "29600",
-        "taxPercentage": "534"
+        "taxPercentage": "53.4"
     },
     {
         "monthlySalary": "30400",
-        "taxPercentage": "535"
+        "taxPercentage": "53.5"
     },
     {
         "monthlySalary": "30800",
-        "taxPercentage": "536"
+        "taxPercentage": "53.6"
     },
     {
         "monthlySalary": "31600",
-        "taxPercentage": "537"
+        "taxPercentage": "53.7"
     },
     {
         "monthlySalary": "32400",
-        "taxPercentage": "538"
+        "taxPercentage": "53.8"
     },
     {
         "monthlySalary": "33200",
-        "taxPercentage": "539"
+        "taxPercentage": "53.9"
     },
     {
         "monthlySalary": "34000",
-        "taxPercentage": "540"
+        "taxPercentage": "54.0"
     },
     {
         "monthlySalary": "34800",
-        "taxPercentage": "541"
+        "taxPercentage": "54.1"
     },
     {
         "monthlySalary": "35600",
-        "taxPercentage": "542"
+        "taxPercentage": "54.2"
     },
     {
         "monthlySalary": "36400",
-        "taxPercentage": "543"
+        "taxPercentage": "54.3"
     },
     {
         "monthlySalary": "37200",
-        "taxPercentage": "544"
+        "taxPercentage": "54.4"
     },
     {
         "monthlySalary": "38400",
-        "taxPercentage": "545"
+        "taxPercentage": "54.5"
     },
     {
         "monthlySalary": "39600",
-        "taxPercentage": "546"
+        "taxPercentage": "54.6"
     },
     {
         "monthlySalary": "40400",
-        "taxPercentage": "547"
+        "taxPercentage": "54.7"
     },
     {
         "monthlySalary": "41600",
-        "taxPercentage": "548"
+        "taxPercentage": "54.8"
     },
     {
         "monthlySalary": "42800",
-        "taxPercentage": "549"
+        "taxPercentage": "54.9"
     },
     {
         "monthlySalary": "44400",
-        "taxPercentage": "550"
+        "taxPercentage": "55.0"
     },
     {
         "monthlySalary": "45600",
-        "taxPercentage": "551"
+        "taxPercentage": "55.1"
     },
     {
         "monthlySalary": "47200",
-        "taxPercentage": "552"
+        "taxPercentage": "55.2"
     },
     {
         "monthlySalary": "52000",
-        "taxPercentage": "554"
+        "taxPercentage": "55.4"
     },
     {
         "monthlySalary": "56000",
-        "taxPercentage": "556"
+        "taxPercentage": "55.6"
     },
     {
         "monthlySalary": "60000",
-        "taxPercentage": "558"
+        "taxPercentage": "55.8"
     },
     {
         "monthlySalary": "64000",
-        "taxPercentage": "559"
+        "taxPercentage": "55.9"
     },
     {
         "monthlySalary": "68000",
-        "taxPercentage": "561"
+        "taxPercentage": "56.1"
     },
     {
         "monthlySalary": "72000",
-        "taxPercentage": "562"
+        "taxPercentage": "56.2"
     },
     {
         "monthlySalary": "76000",
-        "taxPercentage": "563"
+        "taxPercentage": "56.3"
     },
     {
         "monthlySalary": "80000",
-        "taxPercentage": "564"
+        "taxPercentage": "56.4"
     }
 ]
