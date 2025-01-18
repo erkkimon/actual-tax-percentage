@@ -82,6 +82,8 @@ function findTaxPercentage(monthlySalary: number): number {
 }
 
 export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
+    console.log('\nCalculating salary for:', monthlyGrossSalary, '€');
+
     const annualGrossSalary = monthlyGrossSalary * 12;
 
     const employerRates: EmployerRates = {
@@ -119,7 +121,7 @@ export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
 
     const netPercentageOfEmployerCost = (netSalary / employerTotalCostWithVAT) * 100;
 
-    return {
+    const result = {
         monthlyGrossSalary: roundCents(monthlyGrossSalary),
         annualGrossSalary: roundCents(annualGrossSalary),
         employerTotalCost: roundCents(employerTotalCost),
@@ -145,4 +147,7 @@ export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
             }
         }
     };
+
+    console.log('Calculator output:', JSON.stringify(result, null, 2));
+    return result;
 }
