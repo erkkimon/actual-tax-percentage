@@ -60,19 +60,9 @@ export const TaxBreakdownChart: React.FC<TaxBreakdownChartProps> = ({ salary }) 
             description: 'Työterveyshuollon kustannukset'
         },
         {
-            name: 'Lakisääteiset maksut (työntekijä)',
-            value: salary.breakdown.employeeDeductions.pensionUnemploymentHealth,
-            description: 'Työntekijän eläke-, työttömyys- ja sairausvakuutusmaksut'
-        },
-        {
-            name: 'Kunnallisvero',
-            value: salary.breakdown.employeeDeductions.localTax,
-            description: 'Kunnallis- ja kirkollisvero'
-        },
-        {
-            name: 'Valtion tulovero',
-            value: salary.breakdown.employeeDeductions.stateTaxMonthly,
-            description: 'Valtion progressiivinen tulovero'
+            name: 'Tulovero',
+            value: salary.breakdown.employeeDeductions.incomeTax,
+            description: 'Kokonaistulovero sisältäen kunnallis-, kirkko- ja valtion tuloveron'
         },
         {
             name: 'Ammattiliiton jäsenmaksu',

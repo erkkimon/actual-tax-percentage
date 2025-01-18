@@ -1,3 +1,10 @@
+import taxBrackets from '../assets/tax-brackets-fi-2025.json';
+
+export interface TaxBracket {
+    monthlySalary: string;
+    taxPercentage: string;
+}
+
 interface EmployerRates {
     tyel: number;
     unemployment: number;
@@ -16,9 +23,7 @@ interface EmployerContributions {
 }
 
 interface EmployeeDeductions {
-    pensionUnemploymentHealth: number;
-    localTax: number;
-    stateTaxMonthly: number;
+    incomeTax: number;
     unionFee: number;
 }
 
@@ -41,30 +46,43 @@ export interface SalaryCalculation {
     breakdown: TaxBreakdown;
 }
 
-function calculateStateTaxAnnual(annualIncome: number): number {
-    if (annualIncome <= 0) {
-        return 0;
-    } else if (annualIncome <= 21200) {
-        return annualIncome * 0.1264;
-    } else if (annualIncome <= 31500) {
-        return 2679.68 + (annualIncome - 21200) * 0.19;
-    } else if (annualIncome <= 52100) {
-        return 4636.68 + (annualIncome - 31500) * 0.3025;
-    } else if (annualIncome <= 88200) {
-        return 10868.18 + (annualIncome - 52100) * 0.34;
-    } else if (annualIncome <= 150000) {
-        return 23142.18 + (annualIncome - 88200) * 0.4175;
-    } else {
-        return 48943.68 + (annualIncome - 150000) * 0.4425;
-    }
-}
-
 function roundCents(num: number): number {
     return Math.round(num * 100) / 100;
 }
 
+function findTaxPercentage(monthlySalary: number): number {
+    // Sort brackets by salary to ensure they're in ascending order
+    const sortedBrackets = [...taxBrackets].sort((a, b) =>
+        parseFloat(a.monthlySalary) - parseFloat(b.monthlySalary)
+    );
+
+    // If salary is lower than the lowest bracket, use the lowest bracket
+    const lowestBracket = sortedBrackets[0];
+    if (monthlySalary < parseFloat(lowestBracket.monthlySalary)) {
+        return parseFloat(lowestBracket.taxPercentage) / 100;
+    }
+
+    // Find the first bracket where the salary is less than the bracket's salary
+    const upperBracket = sortedBrackets.find(bracket =>
+        parseFloat(bracket.monthlySalary) > monthlySalary
+    );
+
+    if (!upperBracket) {
+        // If no upper bracket found, use the highest bracket
+        const highestBracket = sortedBrackets[sortedBrackets.length - 1];
+        return parseFloat(highestBracket.taxPercentage) / 100;
+    }
+
+    // Find the lower bracket (the one we should use)
+    const lowerBracketIndex = sortedBrackets.indexOf(upperBracket) - 1;
+    const lowerBracket = sortedBrackets[lowerBracketIndex];
+
+    // Use the lower bracket's tax rate
+    return parseFloat(lowerBracket.taxPercentage) / 100;
+}
+
 export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
-    const annualGrossSalary = monthlyGrossSalary * 12.5;
+    const annualGrossSalary = monthlyGrossSalary * 12;
 
     const employerRates: EmployerRates = {
         tyel: 0.1770,
@@ -85,21 +103,15 @@ export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
         employerContributions +
         employerOccupationalHealthcareCost;
 
-    const employeeMandatoryRate = 0.0715 + 0.0059 + 0.0190;
-    const employeeMandatoryAmount = monthlyGrossSalary * employeeMandatoryRate;
-
-    const localTaxRate = 0.0892;
-    const localTaxAmount = monthlyGrossSalary * localTaxRate;
-
-    const annualStateTax = calculateStateTaxAnnual(annualGrossSalary);
-    const monthlyStateTax = annualStateTax / 12.5;
+    const totalTaxRate = findTaxPercentage(monthlyGrossSalary);
+    const totalTaxAmount = monthlyGrossSalary * totalTaxRate;
 
     const employeeUnionFeeRate = 0.015;
     const employeeUnionFee = monthlyGrossSalary * employeeUnionFeeRate;
 
     const netSalary =
         monthlyGrossSalary -
-        (employeeMandatoryAmount + localTaxAmount + monthlyStateTax + employeeUnionFee);
+        (totalTaxAmount + employeeUnionFee);
 
     const vatRate = 0.255;
     const employerVatAmount = employerTotalCost * vatRate;
@@ -124,9 +136,7 @@ export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
                 occupationalHealthcare: roundCents(employerOccupationalHealthcareCost)
             },
             employeeDeductions: {
-                pensionUnemploymentHealth: roundCents(employeeMandatoryAmount),
-                localTax: roundCents(localTaxAmount),
-                stateTaxMonthly: roundCents(monthlyStateTax),
+                incomeTax: roundCents(totalTaxAmount),
                 unionFee: roundCents(employeeUnionFee)
             },
             employerVAT: {
