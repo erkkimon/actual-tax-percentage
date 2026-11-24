@@ -1,3 +1,4 @@
+// Kokonaisveroaste palkkatasoittain (2025) — päivitettävä vuoden 2026 taulukkoon.
 import taxBrackets from '../assets/tax-brackets-fi-2025.json';
 
 export interface TaxBracket {
@@ -87,18 +88,19 @@ export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
 
     const annualGrossSalary = monthlyGrossSalary * 12;
 
+    // Työnantajan sivukulut 2026 (lähdeviitteet: ks. laskelman oletukset):
     const employerRates: EmployerRates = {
-        tyel: 0.1770,
-        unemployment: 0.0061,
-        healthInsurance: 0.0187,
-        accidentInsurance: 0.0070,
-        groupLife: 0.0006
+        tyel: 0.1710,              // TyEL, työnantaja (keskimäärin)
+        unemployment: 0.0092,      // Työttömyysvakuutus, työnantaja (keskimäärin 0,31–1,23)
+        healthInsurance: 0.0191,   // Sairausvakuutusmaksu, työnantaja
+        accidentInsurance: 0.0051, // Tapaturmavakuutus (keskimäärin 0,05–5,00)
+        groupLife: 0.0006          // Ryhmähenkivakuutus (ennallaan)
     };
 
     const employerRateSum = Object.values(employerRates).reduce((a, b) => a + b, 0);
     const employerContributions = monthlyGrossSalary * employerRateSum;
 
-    const employerOccupationalHealthcareRate = 0.01;
+    const employerOccupationalHealthcareRate = 0.01; // Työterveyshuolto (oletus, ei lakisääteinen)
     const employerOccupationalHealthcareCost = monthlyGrossSalary * employerOccupationalHealthcareRate;
 
     const employerTotalCost =
@@ -109,14 +111,14 @@ export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
     const totalTaxRate = findTaxPercentage(monthlyGrossSalary);
     const totalTaxAmount = monthlyGrossSalary * totalTaxRate;
 
-    const employeeUnionFeeRate = 0.015;
+    const employeeUnionFeeRate = 0.015; // Ammattiliiton jäsenmaksu (oletus)
     const employeeUnionFee = monthlyGrossSalary * employeeUnionFeeRate;
 
     const netSalary =
         monthlyGrossSalary -
         (totalTaxAmount + employeeUnionFee);
 
-    const vatRate = 0.255;
+    const vatRate = 0.255; // Yleinen ALV-kanta 25,5 % (1.9.2024 alkaen)
     const employerVatAmount = employerTotalCost * vatRate;
     const employerTotalCostWithVAT = employerTotalCost + employerVatAmount;
 
