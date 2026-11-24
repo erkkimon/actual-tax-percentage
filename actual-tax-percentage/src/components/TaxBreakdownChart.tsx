@@ -60,9 +60,9 @@ export const TaxBreakdownChart: React.FC<TaxBreakdownChartProps> = ({ salary }) 
             description: 'Työterveyshuollon kustannukset'
         },
         {
-            name: 'Tulovero',
+            name: 'Tulovero ja lakisääteiset maksut',
             value: salary.breakdown.employeeDeductions.incomeTax,
-            description: 'Kokonaistulovero sisältäen kunnallis-, kirkko- ja valtion tuloveron'
+            description: 'Työntekijän maksut: TyEL, työttömyys- ja sairausvakuutus sekä kunnallis-, kirkko- ja valtion tulovero'
         },
         {
             name: 'Ammattiliiton jäsenmaksu',
