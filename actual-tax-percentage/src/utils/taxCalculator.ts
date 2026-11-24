@@ -73,49 +73,47 @@ const employeeUnionFeeRate = 0.015; // Ammattiliiton jäsenmaksu (oletus)
 const vatRate = 0.255;              // Yleinen ALV-kanta 25,5 % (1.9.2024 alkaen) [7]
 
 // ---- Valtion tulovero 2026 ----
-// Progressiivinen tuloveroasteikko. Alarajat on indeksoitu noin 3,5 % vuoden 2025
-// tasosta (Verohallinto: "Muutokset veroperusteisiin 2026"); marginaaliveroasteet
-// 12,64 / 19 / 30,25 / 34 / 41,75 %. [6]
+// Progressiivinen tuloveroasteikko (Laki vuoden 2026 tuloveroasteikosta 1140/2025, 1 §). [6]
 const STATE_TAX_BRACKETS = [
-    { lower: 21900, rate: 0.1264 },
-    { lower: 32600, rate: 0.19 },
-    { lower: 53900, rate: 0.3025 },
-    { lower: 91300, rate: 0.34 },
-    { lower: 155300, rate: 0.4175 }
+    { lower: 0,     base: 0,        rate: 0.1264 }, // 0 – 22 000 €: 12,64 %
+    { lower: 22000, base: 2780.8,   rate: 0.19 },   // 22 000 – 32 600 €: 19 %
+    { lower: 32600, base: 4794.8,   rate: 0.3025 }, // 32 600 – 40 100 €: 30,25 %
+    { lower: 40100, base: 7063.55,  rate: 0.3325 }, // 40 100 – 52 100 €: 33,25 %
+    { lower: 52100, base: 11053.55, rate: 0.375 }   // 52 100 € –: 37,5 %
 ];
 
 // Vähennykset 2026 (porrastus yksinkertaistettu enimmäismääristä):
+const INCOME_ACQUISITION_DEDUCTION = 750;   // Tulonhankkimisvähennys (kiinteä)
 const EARNED_INCOME_DEDUCTION_MAX = 3430; // Työtulovähennys, enintään [6]
 const BASIC_DEDUCTION_MAX = 4265;         // Perusvähennys, enintään [6]
 
 function earnedIncomeDeduction(annualGross: number): number {
-    // Työtulovähennys: täysi 3 430 € 20 000 €:n vuosituloon asti,
+    // Työtulovähennys (vähennetään verosta): täysi 3 430 € 20 000 €:n vuosituloon asti,
     // sen jälkeen vähenee 12,5 %:lla ylittävästä osasta.
     return Math.max(0, EARNED_INCOME_DEDUCTION_MAX - 0.125 * Math.max(0, annualGross - 20000));
 }
 
 function basicDeduction(annualGross: number): number {
-    // Perusvähennys: täysi 4 265 € 3 700 €:n vuosituloon asti,
+    // Perusvähennys (vähennetään verosta): täysi 4 265 € 3 700 €:n vuosituloon asti,
     // sen jälkeen vähenee 18 %:lla ylittävästä osasta.
     return Math.max(0, BASIC_DEDUCTION_MAX - 0.18 * Math.max(0, annualGross - 3700));
 }
 
 function taxableAnnualIncome(annualGross: number): number {
-    return Math.max(0, annualGross - earnedIncomeDeduction(annualGross) - basicDeduction(annualGross));
+    return Math.max(0, annualGross - INCOME_ACQUISITION_DEDUCTION);
 }
 
 function calculateStateTaxAnnual(taxableAnnual: number): number {
-    let tax = 0;
-    let remaining = taxableAnnual;
+    if (taxableAnnual <= 0) {
+        return 0;
+    }
     for (let i = STATE_TAX_BRACKETS.length - 1; i >= 0; i--) {
         const bracket = STATE_TAX_BRACKETS[i];
-        if (remaining > bracket.lower) {
-            tax += (remaining - bracket.lower) * bracket.rate;
-            remaining = bracket.lower;
+        if (taxableAnnual > bracket.lower) {
+            return bracket.base + (taxableAnnual - bracket.lower) * bracket.rate;
         }
     }
-    // Ensimmäinen porras (0–21 900 €) on verovapaa.
-    return tax;
+    return 0;
 }
 
 export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
@@ -131,9 +129,15 @@ export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
     // Työntekijän puoli.
     const employeeMandatoryAmount = monthlyGrossSalary * employeeMandatoryRate;
     const taxableAnnual = taxableAnnualIncome(annualGrossSalary);
-    const localTaxAmount = (municipalTaxRate + churchTaxRate) * (taxableAnnual / 12);
-    const stateTaxAmount = calculateStateTaxAnnual(taxableAnnual) / 12;
-    const totalTaxAmount = employeeMandatoryAmount + localTaxAmount + stateTaxAmount;
+    // Tulovero (valtio + kunta + kirkko) verotettavasta tulosta, josta vähennetään
+    // työtulovähennys ja perusvähennys (verosta tehtävät vähennykset).
+    const incomeTaxAnnual = Math.max(0,
+        (municipalTaxRate + churchTaxRate) * taxableAnnual
+        + calculateStateTaxAnnual(taxableAnnual)
+        - earnedIncomeDeduction(annualGrossSalary)
+        - basicDeduction(annualGrossSalary)
+    );
+    const totalTaxAmount = employeeMandatoryAmount + incomeTaxAnnual / 12;
 
     const employeeUnionFee = monthlyGrossSalary * employeeUnionFeeRate;
 

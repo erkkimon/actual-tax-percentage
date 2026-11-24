@@ -20,7 +20,8 @@ const sources: Source[] = [
     { n: 4, label: 'Kuntaliitto: Kuntien verot 2026 (painotettu keskimääräinen tuloveroprosentti 7,57)', url: 'https://www.kuntaliitto.fi/' },
     { n: 5, label: 'Veronmaksajain Keskusliitto: Kunnallis- ja kirkollisverot', url: 'https://www.veronmaksajat.fi/' },
     { n: 6, label: 'Finlex 1140/2025: Laki vuoden 2026 tuloveroasteikosta', url: 'https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2025/1140' },
-    { n: 7, label: 'Rotio: Arvonlisäverokannat 2026 (yleinen 25,5 %)', url: 'https://rotio.fi/kirjanpito/taloushallinnon-tarkeat-luvut-2026/' }
+    { n: 7, label: 'Rotio: Arvonlisäverokannat 2026 (yleinen 25,5 %)', url: 'https://rotio.fi/kirjanpito/taloushallinnon-tarkeat-luvut-2026/' },
+    { n: 8, label: 'Verohallinto: Muutokset veroperusteisiin 2026', url: 'https://www.vero.fi/tietoa-verohallinnosta/tilastot/verotulojen-kehitys/muutokset-veroperusteisiin-verovuosittain/2026/' }
 ];
 
 interface Assumption {
@@ -61,9 +62,18 @@ const assumptions: Assumption[] = [
         ]
     },
     {
-        title: 'Valtion tulovero',
+        title: 'Valtion tulovero (2026)',
         lines: [
-            <>Progressiivinen, vuoden 2026 tuloveroasteikon mukaan<Sup n={6} />.</>
+            <>Progressiivinen tuloveroasteikko (Laki 1140/2025)<Sup n={6} />:</>,
+            <>0–22 000 €: 12,64 % · 22 000–32 600 €: 19 % · 32 600–40 100 €: 30,25 % · 40 100–52 100 €: 33,25 % · yli 52 100 €: 37,5 %</>
+        ]
+    },
+    {
+        title: 'Vähennykset (2026)',
+        lines: [
+            <>Tulonhankkimisvähennys: 750 €<Sup n={8} /></>,
+            <>Työtulovähennys: enintään 3 430 €<Sup n={8} /></>,
+            <>Perusvähennys: enintään 4 265 €<Sup n={8} /></>
         ]
     },
     {
