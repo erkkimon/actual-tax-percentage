@@ -10,7 +10,8 @@ import {
   MainResult,
   GraphContainer,
   AccordionContainer,
-  EmployerCostContainer
+  EmployerCostContainer,
+  RealTaxContainer
 } from './styles/StyledComponents';
 import { SalaryCalculation, estimateSalary } from './utils/taxCalculator';
 import { TaxBreakdownChart } from './components/TaxBreakdownChart';
@@ -67,6 +68,16 @@ function App() {
                 <h3>Eurosi on</h3>
                 <p>{Math.round(salary.netSalaryPctOfEmployerTotalCostWithVAT)} senttiä</p>
               </MainResult>
+
+              <RealTaxContainer
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                key={salary.realTaxPercentage}
+              >
+                <h3>Todellinen veroprosenttisi</h3>
+                <p>{salary.realTaxPercentage.toLocaleString('fi-FI', { minimumFractionDigits: 1, maximumFractionDigits: 1 })} %</p>
+                <span>Verot ja veroluonteiset maksut suhteessa nettopalkkaasi</span>
+              </RealTaxContainer>
 
               <GraphContainer>
                 <TaxBreakdownChart salary={salary} />

@@ -43,6 +43,7 @@ export interface SalaryCalculation {
     employerTotalCostWithVAT: number;
     netSalary: number;
     netSalaryPctOfEmployerTotalCostWithVAT: number;
+    realTaxPercentage: number;
     breakdown: TaxBreakdown;
 }
 
@@ -121,6 +122,13 @@ export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
 
     const netPercentageOfEmployerCost = (netSalary / employerTotalCostWithVAT) * 100;
 
+    // Todellinen veroprosentti: verot ja veroluonteiset maksut suhteessa nettopalkkaan.
+    // SE = nettiosuus (0…1), joten todellinen veroprosentti = (1 - SE) / SE × 100
+    // = (100 - netPercentageOfEmployerCost) / netPercentageOfEmployerCost × 100.
+    const realTaxPercentage = netPercentageOfEmployerCost > 0
+        ? ((100 - netPercentageOfEmployerCost) / netPercentageOfEmployerCost) * 100
+        : 0;
+
     const result = {
         monthlyGrossSalary: roundCents(monthlyGrossSalary),
         annualGrossSalary: roundCents(annualGrossSalary),
@@ -128,6 +136,7 @@ export function estimateSalary(monthlyGrossSalary: number): SalaryCalculation {
         employerTotalCostWithVAT: roundCents(employerTotalCostWithVAT),
         netSalary: roundCents(netSalary),
         netSalaryPctOfEmployerTotalCostWithVAT: roundCents(netPercentageOfEmployerCost),
+        realTaxPercentage: roundCents(realTaxPercentage),
         breakdown: {
             employerContributions: {
                 tyel: roundCents(monthlyGrossSalary * employerRates.tyel),

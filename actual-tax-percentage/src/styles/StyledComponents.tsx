@@ -198,3 +198,39 @@ export const EmployerCostContainer = styled.div`
     filter: drop-shadow(0 0 20px rgba(0, 255, 148, 0.2));
   }
 `;
+
+export const RealTaxContainer = styled(motion.div)`
+  text-align: center;
+  margin-bottom: ${({ theme }) => theme.spacing.xl};
+  padding: ${({ theme }) => theme.spacing.lg};
+  background: linear-gradient(135deg, rgba(255, 0, 229, 0.10), rgba(0, 255, 148, 0.06));
+  border: 1px solid rgba(255, 0, 229, 0.28);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+
+  h3 {
+    font-size: 1.4rem;
+    color: ${({ theme }) => theme.colors.textSecondary};
+    margin-bottom: ${({ theme }) => theme.spacing.sm};
+    font-weight: 500;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  p {
+    font-size: clamp(3rem, 10vw, 5rem);
+    font-weight: 800;
+    color: ${({ theme }) => theme.colors.secondary};
+    text-shadow: ${({ theme }) => theme.shadows.glowSecondary};
+    filter: drop-shadow(0 0 30px rgba(255, 0, 229, 0.25));
+    letter-spacing: -0.02em;
+  }
+
+  span {
+    display: block;
+    margin-top: ${({ theme }) => theme.spacing.sm};
+    font-size: 1rem;
+    line-height: 1.5;
+    color: ${({ theme }) => theme.colors.textSecondary};
+  }
+`;
